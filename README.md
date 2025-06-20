@@ -73,6 +73,11 @@ To run on a real IBM Quantum backend:
    * `run_on_ibm_quantum_simple()`: Simple example (Sampler V1, for debugging)
    * All support `use_simulator=True` for cloud simulators
 
+5. Run
+   ```bash
+   python main.py
+   ```
+
 **Note:**
 
 * Actual quantum hardware may have long queue times!
