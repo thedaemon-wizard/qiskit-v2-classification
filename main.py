@@ -753,6 +753,6 @@ if __name__ == "__main__":
     # 実際に実行する場合はコメントを外す
     # qc_ibm = run_on_ibm_quantum_direct()  # 最も安定（推奨）
     # qc_ibm = run_on_ibm_quantum_simple()  # 簡易版
-    QiskitRuntimeService.save_account(channel='ibm_cloud', overwrite=True, token='12b20d39d77dd2fc678ce12702956a139f8ec492602e5bc7488475dd9a0ac967b3d37c4354a0a778debf6cd7100b7e525ea8ee86aba94a6444b568bd8dd27958')
+    QiskitRuntimeService.save_account(channel='ibm_cloud', overwrite=True, token='YOUR_TOKEN')
 
     qc_ibm = run_on_ibm_quantum()  # フル機能版
