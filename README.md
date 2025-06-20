@@ -20,7 +20,7 @@ Includes custom Variational Quantum Classifiers (VQC) with flexible circuits and
 
 ## Requirements
 
-* Python 3.9+
+* Python 3.12+
 * Qiskit v2.1.0 or later
   (see [Qiskit documentation](https://qiskit.org/documentation/))
 * For IBM Quantum hardware execution:
