@@ -94,6 +94,7 @@ pandas>=2.0.0
 
 # Visualization (optional but recommended)
 matplotlib>=3.7.0
+pylatexenc>=2.10
 ```
 
 ### System Requirements
