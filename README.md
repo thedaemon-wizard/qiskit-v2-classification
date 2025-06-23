@@ -25,7 +25,28 @@ A comprehensive implementation of **Variational Quantum Classifier (VQC)** using
 - **Robust data preprocessing** with StandardScaler integration
 - **Cross-entropy loss optimization** with COBYLA optimizer
 
+
+### Core Capabilities
+- **🌊 Qiskit v2.1.0+ Compatibility** with SamplerV2/EstimatorV2 Primitives V2 API
+- **🖥️ IBM Quantum Hardware Execution** (Open Plan and Premium Plan compatible)
+- **🔄 Job Mode Optimization** for Open Plan users (no sessions required)
+- **⚙️ Hardware-Efficient Circuits** optimized for real quantum devices
+- **🛡️ Advanced Error Handling** with automatic retry mechanisms for Error 9701
+- **📊 Custom VQC Implementation** with flexible ansatz design
+
+### IBM Quantum Platform Integration (2025)
+- **✅ Platform Migration Ready**: Supports new IBM Quantum Platform (ibm_cloud channel)
+- **⚠️ Migration Notice**: IBM Quantum Platform Classic will sunset on July 1, 2025. Users must migrate to the new platform
+- **🔧 Channel Support**: Uses `ibm_cloud` channel (recommended) with fallback to `ibm_quantum` (deprecated)
+- **📈 Future-Ready**: Designed to scale toward IBM's roadmap for fault-tolerant quantum computing, with IBM Quantum Starling expected in 2029
+
+### NISQ Device Optimization
+- **📉 Minimal Resource Usage**: Reduced shot counts and circuit complexity for stability
+- **🔄 Error Recovery**: Automatic retry logic for quantum backend errors
+- **⚡ Dynamic Circuit Adaptation**: Switches between standard and hardware-efficient circuits
+- **🎯 Open Plan Compatible**: Job mode execution without sessions
 ---
+
 
 ## 🔬 Theoretical Background
 
