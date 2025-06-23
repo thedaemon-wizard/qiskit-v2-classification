@@ -619,5 +619,3 @@ qc_ibm = run_on_ibm_quantum_fixed(
 ```
 
 ---
-
-*For the latest updates and detailed API documentation, visit our [GitHub repository](https://github.com/your-repo/quantum-vqc-implementation).*
