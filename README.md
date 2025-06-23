@@ -62,13 +62,13 @@ Variational quantum classifiers can solve classification problems based on PROMI
 ```bash
 # Quantum computing framework
 qiskit>=2.1.0
-qiskit-aer>=0.13.0
+qiskit-aer>=0.17.0
 
 # IBM Quantum hardware access
 qiskit-ibm-runtime>=0.19.0
 
 # Scientific computing
-numpy>=1.24.0
+numpy>=2.2.0
 scipy>=1.10.0
 scikit-learn>=1.3.0
 pandas>=2.0.0
@@ -78,7 +78,7 @@ matplotlib>=3.7.0
 ```
 
 ### System Requirements
-- **Python**: 3.9+ (recommended: 3.11+)
+- **Python**: 3.9+ (recommended: 3.12+)
 - **Memory**: 4GB+ RAM for local simulations
 - **Storage**: 1GB+ for result files and circuit diagrams
 - **IBM Quantum Account**: For hardware execution ([Register here](https://quantum.ibm.com))
